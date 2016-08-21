@@ -6058,11 +6058,12 @@ a, a:link, a:visited, a:focus {
     font-weight: bold;
     color: black;
     font-size: 16px;
-    text-transform: uppercase;
     border-bottom: 1px solid #d0d2d4; }
     .stats-panel .header .overall {
       font-size: 13px;
       color: #818284; }
+  .stats-panel .header:not(.no-upper) {
+    text-transform: uppercase; }
   .stats-panel .title {
     font-weight: bold;
     font-size: 14px; }
@@ -6072,6 +6073,9 @@ a, a:link, a:visited, a:focus {
     float: right; }
   .stats-panel table {
     width: 100%; }
+
+.docs .stats-panel {
+  margin-bottom: 20px; }
 
 .docs .row {
   margin-top: 30px !important; }
@@ -6108,6 +6112,10 @@ a, a:link, a:visited, a:focus {
     cursor: pointer; }
   .docs .api-item tr:not(:last-child) {
     border-bottom: 1px solid #ddd; }
+
+.docs .definitions .properties {
+  list-style-type: none;
+  padding: 0; }
 
 .sidebar {
   padding: 0;
