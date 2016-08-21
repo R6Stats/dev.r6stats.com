@@ -265,7 +265,5 @@
         }
     }
 }(window, window.jQuery));
-$(function() {
-
-	$('#tabs').tab();
-});
+// $(function() {
+// });
